@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:portfolio_admin="http://schemas.android.com/apk/res-auto"
+    xmlns:appcompat="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/refresh"
+        portfolio_admin:showAsAction="ifRoom"
+        android:title="Refresh"/>
+</menu>

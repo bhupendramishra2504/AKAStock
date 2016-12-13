@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:search_stock="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_search"
+        android:title="search stock..."
+        search_stock:actionViewClass="android.support.v7.widget.SearchView"
+        search_stock:showAsAction="always"/>
+</menu>

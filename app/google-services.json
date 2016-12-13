@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1050922605628",
+    "firebase_url": "https://stock-manager-16761.firebaseio.com",
+    "project_id": "stock-manager-16761",
+    "storage_bucket": "stock-manager-16761.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050922605628:android:c090d3ef5659660f",
+        "android_client_info": {
+          "package_name": "akasm.bhupendramishra.com.akastock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050922605628-35obbsdfiokm0gmdfbkru7a0pik01jk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6joxdpKeo7R_BOzM-gjfxtRQp5zyGbK4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

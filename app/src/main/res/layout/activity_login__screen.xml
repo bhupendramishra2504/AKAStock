@@ -1,0 +1,115 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/search_layout"
+
+    android:fillViewport="true"
+    android:layout_height="match_parent"
+    tools:context="akasm.bhupendramishra.com.akastock.Login_Screen"
+    android:fadeScrollbars="false"
+
+    >
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+
+        >
+
+        <ProgressBar
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:progressDrawable="@drawable/circular_progress_bar"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="top"
+            android:layout_marginTop="5dp"
+
+            >
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_launcher"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="40dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lemail"
+                android:inputType="text"
+                android:hint="username"
+                android:textColor="#3F51B5"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lpassword"
+                android:inputType="textPassword"
+                android:hint="password"
+                android:textColor="#3F51B5"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+
+                />
+
+            <CheckBox
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Remember me"
+                android:textColor="#3F51B5"
+                android:id="@+id/remember"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textSize="15sp"
+                android:layout_gravity="center"
+                android:id="@+id/llogin"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:textColor="#3F51B5"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/disclaimer"
+                android:textSize="14sp"
+                android:textColor="#1c39bb"
+                android:text="All Rights reserved with Stock Manager @ 2016"
+                android:layout_marginTop="10dp"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>
